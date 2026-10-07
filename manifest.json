@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "奶蛙壁纸",
+  "version": "1.5.0",
+  "description": "把新标签页变成奶蛙每日精选壁纸：Bing 每日更新、随机美图、收藏与下载，内置时钟和搜索。",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "permissions": ["storage", "unlimitedStorage"],
+  "host_permissions": [
+    "https://cn.bing.com/*",
+    "https://www.bing.com/*",
+    "https://picsum.photos/*",
+    "https://fastly.picsum.photos/*"
+  ]
+}
