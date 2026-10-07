@@ -1,0 +1,13 @@
+﻿*.log
+.DS_Store
+Thumbs.db
+
+# 工具状态与素材候选（不是扩展本体的一部分）
+.mimosa/
+.v2c/
+/out/
+
+# 打包产物
+*.zip
+/dist/
+/build/
